@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from "@angular/common/http";
 import { Gif, GifResponse } from "../interfaces/gif-response";
+import { delay } from "rxjs";
 
 @Injectable({
   providedIn: 'root'

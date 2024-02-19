@@ -9,8 +9,6 @@ export class CardListComponent {
 
   @Input() gifList: Gif[] = [];
 
-  constructor() {
-    console.log(this.gifList);
-  }
+  constructor() {}
 
 }
